@@ -11,5 +11,7 @@ public final class RobotStatique {
 	
 	public void tourner() {
 		
+		
+		
 	}
 }
