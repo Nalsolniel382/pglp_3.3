@@ -1,8 +1,8 @@
 package fr.uvsq.exo3_3;
 
 public class Position {
-	private int x;
-	private int y ;
+	public int x;
+	public  int y ;
 	
 
 	public   Position (int x , int y ) {
@@ -15,4 +15,6 @@ public class Position {
 		x=0;
 		y=0;
 	}
+	
+	
 }
