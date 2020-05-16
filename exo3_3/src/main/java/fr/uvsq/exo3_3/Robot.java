@@ -21,7 +21,7 @@ public class Robot {
 			break;
 			case est:
 				tmp= this.p.getX()+1;
-				this.p.setY(tmp);
+				this.p.setX(tmp);
 			break;
 			case sud:
 				tmp= this.p.getY()-1;
@@ -29,7 +29,7 @@ public class Robot {
 			break;
 			case ouest:
 				tmp= this.p.getX()-1;
-				this.p.setY(tmp);
+				this.p.setX(tmp);
 			break;
 			default:
 			break;
@@ -59,4 +59,21 @@ public class Robot {
 		
 		
 	}
+
+	public Position getP() {
+		return p;
+	}
+
+	public void setP(Position p) {
+		this.p = p;
+	}
+
+	public Direction getD() {
+		return d;
+	}
+
+	public void setD(Direction d) {
+		this.d = d;
+	}
+	
 }
