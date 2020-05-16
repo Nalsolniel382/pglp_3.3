@@ -12,6 +12,28 @@ public class Robot {
 	}
 
 	public void avencer () {
+		int tmp;
+		switch(this.d)
+		{
+			case nord:
+				tmp= this.p.getY()+1;
+				this.p.setY(tmp); 
+			break;
+			case est:
+				tmp= this.p.getX()+1;
+				this.p.setY(tmp);
+			break;
+			case sud:
+				tmp= this.p.getY()-1;
+				this.p.setY(tmp);
+			break;
+			case ouest:
+				tmp= this.p.getX()-1;
+				this.p.setY(tmp);
+			break;
+			default:
+			break;
+		}
 		
 	}
 	public void tourner() {
